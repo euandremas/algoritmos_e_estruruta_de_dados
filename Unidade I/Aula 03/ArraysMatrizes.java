@@ -39,5 +39,6 @@ public class ArraysMatrizes {
         System.out.print("Digite um número: ");
         numeros[0] = Integer.parseInt(scanner.nextLine()); // Lendo um número do usuário e atribuindo ao primeiro
         System.out.println(numeros[0]); // elemento do array numeros
+        scanner.close();
     }
 }

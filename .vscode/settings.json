@@ -1,3 +1,7 @@
 {
     "java.debug.settings.onBuildFailureProceed": true
 }
+
+{
+    "terminal.integrated.defaultEncoding": "utf8"
+}
