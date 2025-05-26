@@ -21,6 +21,10 @@ public class Dados_Primitivos {
         boolean veradeiro = true; // 1 byte = true ou false
         boolean falso = false; // 1 byte = true ou false
 
+        // número PI
+
+        final float PI = 3.1415f; // 4 bytes
+
         // Tipo Texto
         String valorString = "Hello, World!"; // 2 bytes por caractere
 
@@ -35,6 +39,7 @@ public class Dados_Primitivos {
         System.out.println("Valor Boolean: " + veradeiro);
         System.out.println("Valor Boolean: " + falso);
         System.out.println("Valor String: " + valorString);
+        System.out.println("Valor PI: " + PI);
         // Exibindo o tamanho dos tipos primitivos
 
     }
