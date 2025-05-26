@@ -1,11 +1,9 @@
 public class DadosNPrimitivos {
-    public static void main(String[] args) {
+    public static void main(String[] args, String string) {
 
         // Tipo Caracter PRIMITIVO
 
-        char valorChar = 'A'; // 2 bytes = 0 a 65535
-
-        String nome = "Hello, World!"; // 2 bytes por caractere
+        String nome = string; // 2 bytes por caractere
 
         nome = "André"; // Alterando o valor da variável nome
 
