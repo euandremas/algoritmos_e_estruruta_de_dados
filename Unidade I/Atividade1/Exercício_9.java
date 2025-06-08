@@ -36,5 +36,6 @@ public class Exercício_9 {
         for (Pessoa p : clientes) {
             System.out.println(p);
         }
-    }
+
+        scanner.close();}
 }
