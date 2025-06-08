@@ -1,6 +1,7 @@
-public class Exercício_5 {
+// Avaliação de Notas dos Alunos
 
-    // Avaliação de Notas dos Alunos
+public class Exercício_5 {
+  
 
     public static void main(String[] args) {
 

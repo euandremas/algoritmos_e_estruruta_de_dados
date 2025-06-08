@@ -1,5 +1,8 @@
 // Exercício 6: Números primos entre 1 e 100
-public class Exercicio6 {
+
+public class Exercício_6 {
+
+
     public static void main(String[] args) {
         System.out.println("Números primos entre 1 e 100:");
         for (int i = 2; i <= 100; i++) {

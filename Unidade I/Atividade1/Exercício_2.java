@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class Exercício_2 {
 
-    // Verificador de Características de Um Produto
-
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

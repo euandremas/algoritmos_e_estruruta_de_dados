@@ -1,8 +1,8 @@
+// Contagem de Clientes em um Estabelecimento
+
 public class Exercício_3 {
 
-    // Contagem de Clientes em um Estabelecimento
-
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         int numeroDeClientes = 10; // Número de clientes no estabelecimento
 
         // Exibindo a contagem de clientes de 1 a 10

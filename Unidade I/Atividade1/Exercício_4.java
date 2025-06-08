@@ -1,10 +1,11 @@
+// Organizando uma Lista de Espera Dinâmica
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Exercício_4 {
 
-    // Organizando uma Lista de Espera Dinâmica
-
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> listaEspera = new ArrayList<>();

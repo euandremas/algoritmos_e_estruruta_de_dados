@@ -1,7 +1,8 @@
+// Explorando Variáveis no Sistema de Reservas de um Hotel
+
 public class Exercício_1 {
 
-    // Explorando Variáveis no Sistema de Reservas de um Hotel
-
+    
     public static void main(String[] args) {
         int numeroDoQuarto = 10;
         float valorDiaria = 150.0f;
