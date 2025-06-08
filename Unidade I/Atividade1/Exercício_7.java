@@ -50,9 +50,8 @@ public class Exercício_7 {
         for (int i = 0; i < 3; i++) {
             if (t[i][0] == j && t[i][1] == j && t[i][2] == j) return true;
             if (t[0][i] == j && t[1][i] == j && t[2][i] == j) return true;
+        }
         return (t[0][0] == j && t[1][1] == j && t[2][2] == j) || (t[0][2] == j && t[1][1] == j && t[2][0] == j);
     }
 
-    }
-
-}   
+}
