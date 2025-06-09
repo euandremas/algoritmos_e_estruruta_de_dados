@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.stream.Collectors;
@@ -13,6 +14,13 @@ import Projeto.Pizza.TamanhoPizza;
 public class Pizzaria {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        scanner.useLocale(Locale.getDefault()); // ADIÇÃO AQUI: Configura o Scanner para a localidade padrão
+
+        // Mensagens de boas-vindas adicionadas aqui
+        System.out.println("\nBem-vindo ao Gerenciador de Pizzaria!");
+        System.out.println("Você pode fazer pedidos, alterar pedidos, adicionar clientes e gerar relatórios.");
+        System.out.println("Para começar, vamos criar uma lista de clientes e pedidos.");
+
         List<Cliente> listaClientes = new ArrayList<>();
         List<Pedido> listaPedidos = new ArrayList<>();
 
